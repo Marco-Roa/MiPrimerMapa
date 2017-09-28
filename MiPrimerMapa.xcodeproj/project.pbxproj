@@ -49,7 +49,7 @@
 		F4F143681F7C6DB30018998B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F1436D1F7C6DB40018998B /* MiPrimerMapaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPrimerMapaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F143781F7C6DB40018998B /* MiPrimerMapaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPrimerMapaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4F1438A1F7C6E040018998B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F4F1438A1F7C6E040018998B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8F54A3291586A2FC8B596CE /* libPods-MiPrimerMapa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiPrimerMapa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
