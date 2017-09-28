@@ -36,5 +36,10 @@
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Oli</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>googlechromes</string>
+        <string>comgooglemaps</string>
+    </array>
 </dict>
 </plist>
