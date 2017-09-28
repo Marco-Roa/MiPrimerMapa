@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		F4F143591F7C6DB30018998B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F143581F7C6DB30018998B /* main.m */; };
 		F4F1435C1F7C6DB30018998B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1435B1F7C6DB30018998B /* AppDelegate.m */; };
-		F4F1435F1F7C6DB30018998B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1435E1F7C6DB30018998B /* ViewController.m */; };
+		F4F1435F1F7C6DB30018998B /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1435E1F7C6DB30018998B /* Home.m */; };
 		F4F143621F7C6DB30018998B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F143601F7C6DB30018998B /* Main.storyboard */; };
 		F4F143641F7C6DB30018998B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F143631F7C6DB30018998B /* Assets.xcassets */; };
 		F4F143671F7C6DB30018998B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F143651F7C6DB30018998B /* LaunchScreen.storyboard */; };
-		F4F143721F7C6DB40018998B /* MiPrimerMapaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F143711F7C6DB40018998B /* MiPrimerMapaTests.m */; };
-		F4F1437D1F7C6DB40018998B /* MiPrimerMapaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1437C1F7C6DB40018998B /* MiPrimerMapaUITests.m */; };
+		F4F1438B1F7C6E040018998B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F4F1438A1F7C6E040018998B /* Podfile */; };
+		F5653460AFA6EC5CE713709A /* libPods-MiPrimerMapa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F54A3291586A2FC8B596CE /* libPods-MiPrimerMapa.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11C840FA06904F629E3D1488 /* Pods-MiPrimerMapa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiPrimerMapa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiPrimerMapa/Pods-MiPrimerMapa.debug.xcconfig"; sourceTree = "<group>"; };
+		470AB9E103ACD2D851D9823B /* Pods-MiPrimerMapa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiPrimerMapa.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiPrimerMapa/Pods-MiPrimerMapa.release.xcconfig"; sourceTree = "<group>"; };
 		F4F143541F7C6DB30018998B /* MiPrimerMapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiPrimerMapa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F143581F7C6DB30018998B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4F1435A1F7C6DB30018998B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4F1435B1F7C6DB30018998B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F4F1435D1F7C6DB30018998B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F4F1435E1F7C6DB30018998B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4F1435D1F7C6DB30018998B /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		F4F1435E1F7C6DB30018998B /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		F4F143611F7C6DB30018998B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4F143631F7C6DB30018998B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4F143661F7C6DB30018998B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4F143681F7C6DB30018998B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F1436D1F7C6DB40018998B /* MiPrimerMapaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPrimerMapaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4F143711F7C6DB40018998B /* MiPrimerMapaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiPrimerMapaTests.m; sourceTree = "<group>"; };
-		F4F143731F7C6DB40018998B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F143781F7C6DB40018998B /* MiPrimerMapaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPrimerMapaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4F1437C1F7C6DB40018998B /* MiPrimerMapaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiPrimerMapaUITests.m; sourceTree = "<group>"; };
-		F4F1437E1F7C6DB40018998B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F1438A1F7C6E040018998B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F8F54A3291586A2FC8B596CE /* libPods-MiPrimerMapa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiPrimerMapa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5653460AFA6EC5CE713709A /* libPods-MiPrimerMapa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +79,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1229403EEF2011398A0827E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11C840FA06904F629E3D1488 /* Pods-MiPrimerMapa.debug.xcconfig */,
+				470AB9E103ACD2D851D9823B /* Pods-MiPrimerMapa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA9486313CA6C1398107CA61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8F54A3291586A2FC8B596CE /* libPods-MiPrimerMapa.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4F1434B1F7C6DB30018998B = {
 			isa = PBXGroup;
 			children = (
+				F4F1438A1F7C6E040018998B /* Podfile */,
 				F4F143561F7C6DB30018998B /* MiPrimerMapa */,
-				F4F143701F7C6DB40018998B /* MiPrimerMapaTests */,
-				F4F1437B1F7C6DB40018998B /* MiPrimerMapaUITests */,
 				F4F143551F7C6DB30018998B /* Products */,
+				1229403EEF2011398A0827E5 /* Pods */,
+				EA9486313CA6C1398107CA61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +120,8 @@
 		F4F143561F7C6DB30018998B /* MiPrimerMapa */ = {
 			isa = PBXGroup;
 			children = (
-				F4F1435A1F7C6DB30018998B /* AppDelegate.h */,
-				F4F1435B1F7C6DB30018998B /* AppDelegate.m */,
-				F4F1435D1F7C6DB30018998B /* ViewController.h */,
-				F4F1435E1F7C6DB30018998B /* ViewController.m */,
+				F4F1438D1F7C6EBD0018998B /* Main */,
+				F4F1438C1F7C6EAC0018998B /* Controllers */,
 				F4F143601F7C6DB30018998B /* Main.storyboard */,
 				F4F143631F7C6DB30018998B /* Assets.xcassets */,
 				F4F143651F7C6DB30018998B /* LaunchScreen.storyboard */,
@@ -122,22 +139,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F4F143701F7C6DB40018998B /* MiPrimerMapaTests */ = {
+		F4F1438C1F7C6EAC0018998B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F4F143711F7C6DB40018998B /* MiPrimerMapaTests.m */,
-				F4F143731F7C6DB40018998B /* Info.plist */,
+				F4F1435E1F7C6DB30018998B /* Home.m */,
+				F4F1435D1F7C6DB30018998B /* Home.h */,
 			);
-			path = MiPrimerMapaTests;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
-		F4F1437B1F7C6DB40018998B /* MiPrimerMapaUITests */ = {
+		F4F1438D1F7C6EBD0018998B /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				F4F1437C1F7C6DB40018998B /* MiPrimerMapaUITests.m */,
-				F4F1437E1F7C6DB40018998B /* Info.plist */,
+				F4F1435A1F7C6DB30018998B /* AppDelegate.h */,
+				F4F1435B1F7C6DB30018998B /* AppDelegate.m */,
 			);
-			path = MiPrimerMapaUITests;
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4F143811F7C6DB40018998B /* Build configuration list for PBXNativeTarget "MiPrimerMapa" */;
 			buildPhases = (
+				ECE70FC38446EE78F9E23B75 /* [CP] Check Pods Manifest.lock */,
 				F4F143501F7C6DB30018998B /* Sources */,
 				F4F143511F7C6DB30018998B /* Frameworks */,
 				F4F143521F7C6DB30018998B /* Resources */,
+				409F63DB3ADF147E04A65665 /* [CP] Embed Pods Frameworks */,
+				7644B068ADF3EDBEE34769A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +268,7 @@
 			files = (
 				F4F143671F7C6DB30018998B /* LaunchScreen.storyboard in Resources */,
 				F4F143641F7C6DB30018998B /* Assets.xcassets in Resources */,
+				F4F1438B1F7C6E040018998B /* Podfile in Resources */,
 				F4F143621F7C6DB30018998B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,12 +289,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		409F63DB3ADF147E04A65665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiPrimerMapa/Pods-MiPrimerMapa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7644B068ADF3EDBEE34769A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MiPrimerMapa/Pods-MiPrimerMapa-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiPrimerMapa/Pods-MiPrimerMapa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE70FC38446EE78F9E23B75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiPrimerMapa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4F143501F7C6DB30018998B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F1435F1F7C6DB30018998B /* ViewController.m in Sources */,
+				F4F1435F1F7C6DB30018998B /* Home.m in Sources */,
 				F4F1435C1F7C6DB30018998B /* AppDelegate.m in Sources */,
 				F4F143591F7C6DB30018998B /* main.m in Sources */,
 			);
@@ -283,7 +359,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F143721F7C6DB40018998B /* MiPrimerMapaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +366,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F1437D1F7C6DB40018998B /* MiPrimerMapaUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +496,7 @@
 		};
 		F4F143821F7C6DB40018998B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C840FA06904F629E3D1488 /* Pods-MiPrimerMapa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MiPrimerMapa/Info.plist;
@@ -433,6 +508,7 @@
 		};
 		F4F143831F7C6DB40018998B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470AB9E103ACD2D851D9823B /* Pods-MiPrimerMapa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MiPrimerMapa/Info.plist;
@@ -507,6 +583,7 @@
 				F4F143831F7C6DB40018998B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F143841F7C6DB40018998B /* Build configuration list for PBXNativeTarget "MiPrimerMapaTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +592,7 @@
 				F4F143861F7C6DB40018998B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F143871F7C6DB40018998B /* Build configuration list for PBXNativeTarget "MiPrimerMapaUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +601,7 @@
 				F4F143891F7C6DB40018998B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
